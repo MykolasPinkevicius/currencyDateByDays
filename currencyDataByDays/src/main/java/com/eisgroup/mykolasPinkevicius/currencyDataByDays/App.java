@@ -11,7 +11,6 @@ import java.net.URL;
 import java.net.URLConnection;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -25,6 +24,9 @@ import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
+
+import com.eisgroup.mykolasPinkevicius.currencyDataByDays.inputAndVerification.Currency;
+import com.eisgroup.mykolasPinkevicius.currencyDataByDays.inputAndVerification.Dates;
 /**
  * @author mykolaspinkevicius
  *
@@ -32,31 +34,23 @@ import org.xml.sax.SAXException;
 public class App {
 	
 	public static void main(String[] args) throws IOException, ParserConfigurationException, SAXException{
-
-//		Creating scanner for System in data input
-		Scanner scan = new Scanner(System.in);
 		
-//		Taking Currency Code
-		System.out.println("Please input Currency Code");
-		String currencyCode = scan.nextLine();
+//		Collecting Currency Code
+		Currency curr = Currency.collectCurrency();
+		String currencyCode = curr.getCode();
 		
-//		Writing input rules
-		System.out.println("Please input date from which you want to get data.\nUse this format 0000-00-00/year/month/day.\nEnter Starting date, than finishing date");
-		System.out.println("\nEnter Starting Date (Enter weekend's only if you want larger data than few days)");
-		
-//		Star dat
-		String startingDate = scan.nextLine();
-//		FInishing date
-		System.out.println("Enter Finishing Date");
-		String finishingDate = scan.nextLine();
+//		Providing input rules
+		System.out.println("Please input date from which you want to get data.\nUse this format '0000-00-00' 'year/month/day'.\n Enter Start date, than finish date");
 		System.out.println("\n");
 		
-//		Closing scanner for optimal performance
-		scan.close();
+//		Collecting dates
+		Dates dates = Dates.collectDates();
+		String startDate = dates.getStartDate();
+		String finishDate = dates.getFinishDate();
 		
 //		We take data from HTTP Get method
 		URL address = new URL("https://www.lb.lt/webservices/FxRates/FxRates.asmx/getFxRatesForCurrency?tp=EU&ccy="
-				+ currencyCode + "&dtFrom=" + startingDate + "&dtTo=" + finishingDate);
+				+ currencyCode + "&dtFrom=" + startDate + "&dtTo=" + finishDate);
 		
 		URLConnection conn = address.openConnection();
 		
@@ -66,12 +60,12 @@ public class App {
 //		Put data into string
 		String str = new String(buff.readAllBytes());
 		
-//		Close readers
+//		Close readers for optimal performance
 		buff.close();
 		in.close();
 	
 //		XML string formatted data to file or we could straight give it to creating Node object but 
-//		I created file for if something happen we could see last request who maybe coused the error
+//		I created file for if something happen we could see last request who maybe caused the error
 		FileWriter fw = new java.io.FileWriter("Resources/my-file.xml");
 	    fw.write(str);
 	    fw.close();
@@ -116,8 +110,7 @@ public class App {
 				    Double dInf = Double.parseDouble(m.group(1));
 				    doublesArray.add(dInf);
 				}
-			}	
-			
+			}		
 		}
 		
 		System.out.println("\n");
@@ -132,7 +125,7 @@ public class App {
 		MathContext mc = new MathContext(4);
 		b = b.round(mc);
 		
-		System.out.println("Currency rate changes by " + b + " points\nfrom " + startingDate + " to " + finishingDate);
+		System.out.println("Currency rate changes by " + b + " points\nfrom " + startDate + " to " + finishDate);
 
 		
 	}
