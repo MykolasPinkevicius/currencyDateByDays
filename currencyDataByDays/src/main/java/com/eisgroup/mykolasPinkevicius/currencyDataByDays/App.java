@@ -121,7 +121,7 @@ public class App {
 //		Using BigDEcimal for minus arithmetic values
 		BigDecimal b  = BigDecimal.valueOf(average);
 		
-//		Roundind the BigDecimal average value;
+//		Rounding the BigDecimal average value;
 		MathContext mc = new MathContext(4);
 		b = b.round(mc);
 		
