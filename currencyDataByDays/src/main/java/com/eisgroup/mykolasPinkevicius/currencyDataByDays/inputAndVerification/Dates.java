@@ -1,47 +1,23 @@
 package com.eisgroup.mykolasPinkevicius.currencyDataByDays.inputAndVerification;
 
 import java.util.Scanner;
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 /**
  * @author mykolaspinkevicius
  *
  */
+@Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
 public class Dates {
 	
 	private String startDate;
 	private String finishDate;
-
-	public Dates(String startDate, String finishDate) {
-		super();
-		this.startDate = startDate;
-		this.finishDate = finishDate;
-	}
-	
-	public Dates() {};
-
-
-	public String getStartDate() {
-		return startDate;
-	}
-
-
-
-	public void setStartDate(String startDate) {
-		this.startDate = startDate;
-	}
-
-
-
-	public String getFinishDate() {
-		return finishDate;
-	}
-
-
-
-	public void setFinishDate(String finishDate) {
-		this.finishDate = finishDate;
-	}
-
-
 
 	public static Dates collectDates() {
 		

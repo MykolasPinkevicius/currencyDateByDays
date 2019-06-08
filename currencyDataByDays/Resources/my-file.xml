@@ -2,50 +2,290 @@
 <FxRates xmlns="http://www.lb.lt/WebServices/FxRates">
   <FxRate>
     <Tp>EU</Tp>
-    <Dt>2018-11-15</Dt>
+    <Dt>2017-02-01</Dt>
     <CcyAmt>
       <Ccy>EUR</Ccy>
       <Amt>1</Amt>
     </CcyAmt>
     <CcyAmt>
-      <Ccy>AUD</Ccy>
-      <Amt>1.5564</Amt>
+      <Ccy>MXN</Ccy>
+      <Amt>22.3405</Amt>
     </CcyAmt>
   </FxRate>
   <FxRate>
     <Tp>EU</Tp>
-    <Dt>2018-11-14</Dt>
+    <Dt>2017-01-31</Dt>
     <CcyAmt>
       <Ccy>EUR</Ccy>
       <Amt>1</Amt>
     </CcyAmt>
     <CcyAmt>
-      <Ccy>AUD</Ccy>
-      <Amt>1.5657</Amt>
+      <Ccy>MXN</Ccy>
+      <Amt>22.2855</Amt>
     </CcyAmt>
   </FxRate>
   <FxRate>
     <Tp>EU</Tp>
-    <Dt>2018-11-13</Dt>
+    <Dt>2017-01-30</Dt>
     <CcyAmt>
       <Ccy>EUR</Ccy>
       <Amt>1</Amt>
     </CcyAmt>
     <CcyAmt>
-      <Ccy>AUD</Ccy>
-      <Amt>1.5628</Amt>
+      <Ccy>MXN</Ccy>
+      <Amt>22.0850</Amt>
     </CcyAmt>
   </FxRate>
   <FxRate>
     <Tp>EU</Tp>
-    <Dt>2018-11-12</Dt>
+    <Dt>2017-01-27</Dt>
     <CcyAmt>
       <Ccy>EUR</Ccy>
       <Amt>1</Amt>
     </CcyAmt>
     <CcyAmt>
-      <Ccy>AUD</Ccy>
-      <Amt>1.5623</Amt>
+      <Ccy>MXN</Ccy>
+      <Amt>22.5452</Amt>
+    </CcyAmt>
+  </FxRate>
+  <FxRate>
+    <Tp>EU</Tp>
+    <Dt>2017-01-26</Dt>
+    <CcyAmt>
+      <Ccy>EUR</Ccy>
+      <Amt>1</Amt>
+    </CcyAmt>
+    <CcyAmt>
+      <Ccy>MXN</Ccy>
+      <Amt>22.4760</Amt>
+    </CcyAmt>
+  </FxRate>
+  <FxRate>
+    <Tp>EU</Tp>
+    <Dt>2017-01-25</Dt>
+    <CcyAmt>
+      <Ccy>EUR</Ccy>
+      <Amt>1</Amt>
+    </CcyAmt>
+    <CcyAmt>
+      <Ccy>MXN</Ccy>
+      <Amt>23.0674</Amt>
+    </CcyAmt>
+  </FxRate>
+  <FxRate>
+    <Tp>EU</Tp>
+    <Dt>2017-01-24</Dt>
+    <CcyAmt>
+      <Ccy>EUR</Ccy>
+      <Amt>1</Amt>
+    </CcyAmt>
+    <CcyAmt>
+      <Ccy>MXN</Ccy>
+      <Amt>22.8856</Amt>
+    </CcyAmt>
+  </FxRate>
+  <FxRate>
+    <Tp>EU</Tp>
+    <Dt>2017-01-23</Dt>
+    <CcyAmt>
+      <Ccy>EUR</Ccy>
+      <Amt>1</Amt>
+    </CcyAmt>
+    <CcyAmt>
+      <Ccy>MXN</Ccy>
+      <Amt>22.9436</Amt>
+    </CcyAmt>
+  </FxRate>
+  <FxRate>
+    <Tp>EU</Tp>
+    <Dt>2017-01-20</Dt>
+    <CcyAmt>
+      <Ccy>EUR</Ccy>
+      <Amt>1</Amt>
+    </CcyAmt>
+    <CcyAmt>
+      <Ccy>MXN</Ccy>
+      <Amt>23.37</Amt>
+    </CcyAmt>
+  </FxRate>
+  <FxRate>
+    <Tp>EU</Tp>
+    <Dt>2017-01-19</Dt>
+    <CcyAmt>
+      <Ccy>EUR</Ccy>
+      <Amt>1</Amt>
+    </CcyAmt>
+    <CcyAmt>
+      <Ccy>MXN</Ccy>
+      <Amt>23.4441</Amt>
+    </CcyAmt>
+  </FxRate>
+  <FxRate>
+    <Tp>EU</Tp>
+    <Dt>2017-01-18</Dt>
+    <CcyAmt>
+      <Ccy>EUR</Ccy>
+      <Amt>1</Amt>
+    </CcyAmt>
+    <CcyAmt>
+      <Ccy>MXN</Ccy>
+      <Amt>23.1335</Amt>
+    </CcyAmt>
+  </FxRate>
+  <FxRate>
+    <Tp>EU</Tp>
+    <Dt>2017-01-17</Dt>
+    <CcyAmt>
+      <Ccy>EUR</Ccy>
+      <Amt>1</Amt>
+    </CcyAmt>
+    <CcyAmt>
+      <Ccy>MXN</Ccy>
+      <Amt>23.0550</Amt>
+    </CcyAmt>
+  </FxRate>
+  <FxRate>
+    <Tp>EU</Tp>
+    <Dt>2017-01-16</Dt>
+    <CcyAmt>
+      <Ccy>EUR</Ccy>
+      <Amt>1</Amt>
+    </CcyAmt>
+    <CcyAmt>
+      <Ccy>MXN</Ccy>
+      <Amt>22.8780</Amt>
+    </CcyAmt>
+  </FxRate>
+  <FxRate>
+    <Tp>EU</Tp>
+    <Dt>2017-01-13</Dt>
+    <CcyAmt>
+      <Ccy>EUR</Ccy>
+      <Amt>1</Amt>
+    </CcyAmt>
+    <CcyAmt>
+      <Ccy>MXN</Ccy>
+      <Amt>23.0860</Amt>
+    </CcyAmt>
+  </FxRate>
+  <FxRate>
+    <Tp>EU</Tp>
+    <Dt>2017-01-12</Dt>
+    <CcyAmt>
+      <Ccy>EUR</Ccy>
+      <Amt>1</Amt>
+    </CcyAmt>
+    <CcyAmt>
+      <Ccy>MXN</Ccy>
+      <Amt>23.07</Amt>
+    </CcyAmt>
+  </FxRate>
+  <FxRate>
+    <Tp>EU</Tp>
+    <Dt>2017-01-11</Dt>
+    <CcyAmt>
+      <Ccy>EUR</Ccy>
+      <Amt>1</Amt>
+    </CcyAmt>
+    <CcyAmt>
+      <Ccy>MXN</Ccy>
+      <Amt>22.9635</Amt>
+    </CcyAmt>
+  </FxRate>
+  <FxRate>
+    <Tp>EU</Tp>
+    <Dt>2017-01-10</Dt>
+    <CcyAmt>
+      <Ccy>EUR</Ccy>
+      <Amt>1</Amt>
+    </CcyAmt>
+    <CcyAmt>
+      <Ccy>MXN</Ccy>
+      <Amt>22.6397</Amt>
+    </CcyAmt>
+  </FxRate>
+  <FxRate>
+    <Tp>EU</Tp>
+    <Dt>2017-01-09</Dt>
+    <CcyAmt>
+      <Ccy>EUR</Ccy>
+      <Amt>1</Amt>
+    </CcyAmt>
+    <CcyAmt>
+      <Ccy>MXN</Ccy>
+      <Amt>22.3940</Amt>
+    </CcyAmt>
+  </FxRate>
+  <FxRate>
+    <Tp>EU</Tp>
+    <Dt>2017-01-06</Dt>
+    <CcyAmt>
+      <Ccy>EUR</Ccy>
+      <Amt>1</Amt>
+    </CcyAmt>
+    <CcyAmt>
+      <Ccy>MXN</Ccy>
+      <Amt>22.5290</Amt>
+    </CcyAmt>
+  </FxRate>
+  <FxRate>
+    <Tp>EU</Tp>
+    <Dt>2017-01-05</Dt>
+    <CcyAmt>
+      <Ccy>EUR</Ccy>
+      <Amt>1</Amt>
+    </CcyAmt>
+    <CcyAmt>
+      <Ccy>MXN</Ccy>
+      <Amt>22.3446</Amt>
+    </CcyAmt>
+  </FxRate>
+  <FxRate>
+    <Tp>EU</Tp>
+    <Dt>2017-01-04</Dt>
+    <CcyAmt>
+      <Ccy>EUR</Ccy>
+      <Amt>1</Amt>
+    </CcyAmt>
+    <CcyAmt>
+      <Ccy>MXN</Ccy>
+      <Amt>22.0709</Amt>
+    </CcyAmt>
+  </FxRate>
+  <FxRate>
+    <Tp>EU</Tp>
+    <Dt>2017-01-03</Dt>
+    <CcyAmt>
+      <Ccy>EUR</Ccy>
+      <Amt>1</Amt>
+    </CcyAmt>
+    <CcyAmt>
+      <Ccy>MXN</Ccy>
+      <Amt>21.4935</Amt>
+    </CcyAmt>
+  </FxRate>
+  <FxRate>
+    <Tp>EU</Tp>
+    <Dt>2017-01-02</Dt>
+    <CcyAmt>
+      <Ccy>EUR</Ccy>
+      <Amt>1</Amt>
+    </CcyAmt>
+    <CcyAmt>
+      <Ccy>MXN</Ccy>
+      <Amt>21.7063</Amt>
+    </CcyAmt>
+  </FxRate>
+  <FxRate>
+    <Tp>EU</Tp>
+    <Dt>2016-12-30</Dt>
+    <CcyAmt>
+      <Ccy>EUR</Ccy>
+      <Amt>1</Amt>
+    </CcyAmt>
+    <CcyAmt>
+      <Ccy>MXN</Ccy>
+      <Amt>21.7719</Amt>
     </CcyAmt>
   </FxRate>
 </FxRates>

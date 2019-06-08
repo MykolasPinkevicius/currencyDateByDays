@@ -2,24 +2,18 @@ package com.eisgroup.mykolasPinkevicius.currencyDataByDays.inputAndVerification;
 
 import java.util.Scanner;
 
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+@Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
 public class Currency {
 	private String code;
 
-	public String getCode() {
-		return code;
-	}
-
-	public void setCode(String code) {
-		this.code = code;
-	}
-
-	public Currency(String code) {
-		super();
-		this.code = code;
-	}
-	
-	public Currency() {};
-	
 	public static Currency collectCurrency() {
 		
 //		Creating scanner for System in data input
